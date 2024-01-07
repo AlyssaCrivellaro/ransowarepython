@@ -1,0 +1,2 @@
+Essa mensagem foi definida para fazer um teste de codigo para ransoware
+E será criptografa e descriptografada seguindo os passos corretamente
