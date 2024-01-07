@@ -1,1 +1,46 @@
+Codigo em Python de encriptar e descriptar mensagem
+
+Será feito na MV Kali
+
+Primeiramente entrar como usuario root na MV
+
+1 - $ sudo su
+
+Configurar a biblioteca pyaes na MV
+
+2 - $ sudo apt-get update -y
+
+3 - $ sudo apt-get install -y python3-pyaes
+
+Fazer o clone do repositório
+
+4 - $ git clone https://github.com/AlyssaCrivellaro/ransowarepython.git
+
+5 -$ ls
+
+ver que tem os 4 arquivos no diretório e entrar em cada um para ver se esta tudo ok
+
+6 - $ nano encryter.py
+
+7 - $ nano decrypter.py
+
+8 - $ nano teste.txt
+
+
+
+Na sequencia encriptar a mensagem
+
+9 - $ python encrypter.py
+
+10 - $ ls
+
+aparecerá a uma nova pasta no lugar da teste.txt e a mensagem dentro estará cifrada
+
+11 - $ python decrypter.py
+
+voltara a pasta teste.txt e a mensagem estará normal
+
+ls
+
+
 
